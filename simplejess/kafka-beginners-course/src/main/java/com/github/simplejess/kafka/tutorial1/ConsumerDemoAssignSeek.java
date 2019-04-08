@@ -34,14 +34,14 @@ public class ConsumerDemoAssignSeek {
         // assign and seek are mostly used to replay data or fetch a specific message
 
         // assign
-        TopicPartition partitionToReadFrom = new TopicPartition(topic, 0);
+        TopicPartition partitionToReadFrom = new TopicPartition(topic, 2);
         long offsetToReadFrom = 15L;
         consumer.assign(Arrays.asList(partitionToReadFrom));
 
         // seek
         consumer.seek(partitionToReadFrom, offsetToReadFrom);
 
-        int numberOfMessagesToRead = 5;
+        int numberOfMessagesToRead = 10;
         boolean keepOnReading = true;
         int numberOfMessagesReadSoFar = 0;
 

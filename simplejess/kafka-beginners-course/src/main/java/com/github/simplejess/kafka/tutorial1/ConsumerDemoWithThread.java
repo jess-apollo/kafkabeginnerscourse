@@ -19,10 +19,6 @@ public class ConsumerDemoWithThread {
         new ConsumerDemoWithThread().run();
     }
 
-    private ConsumerDemoWithThread() {
-
-    }
-
     private void run() {
         Logger logger = LoggerFactory.getLogger(ConsumerRunnable.class.getName());
 
@@ -117,7 +113,7 @@ public class ConsumerDemoWithThread {
             } finally {
                 consumer.close();
 
-                // tell our main code we're dne with the consumer
+                // tell our main code we're done with the consumer
                 latch.countDown();
             }
         }

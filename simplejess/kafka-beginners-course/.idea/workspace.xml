@@ -4,8 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemo.java" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e5a214f-1669-4750-a5b0-31c4bd0afea5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e5a214f-1669-4750-a5b0-31c4bd0afea5" name="Default Changelist" comment="Apache Kafka for beginners lecture">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoAssignSeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoAssignSeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoWithThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoWithThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,21 +25,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="93" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="93" />
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#989#1005#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,8 +40,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemoWithCallback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+            <state relative-caret-position="330">
+              <caret line="27" column="105" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,11 +52,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemoKeys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="154">
+              <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
               <folding>
-                <element signature="e#1601#2430#0" expanded="true" />
-                <element signature="e#2429#2430#0" expanded="true" />
+                <element signature="e#1415#1431#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,11 +64,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="880">
+              <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1241#1257#0" expanded="true" />
+                <element signature="e#1446#1462#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,30 +76,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoGroups.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoWithThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="484">
+              <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
               <folding>
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#1457#1473#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoWithThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="97" selection-start-line="15" selection-start-column="97" selection-end-line="15" selection-end-column="97" />
+            <state relative-caret-position="403">
+              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+              <folding>
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoAssignSeek.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+              <folding>
+                <element signature="e#1390#1406#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,12 +126,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemoWithCallback.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemoKeys.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoGroups.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemoKeys.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemoWithCallback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoWithThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoAssignSeek.java" />
       </list>
     </option>
   </component>
@@ -154,18 +158,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="264" />
-    <option name="y" value="137" />
+    <option name="x" value="159" />
+    <option name="y" value="230" />
     <option name="width" value="1400" />
-    <option name="height" value="1056" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -236,9 +233,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemoWithThread">
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.simplejess.kafka.tutorial1.ConsumerDemo" />
+  <component name="RunManager" selected="Application.ConsumerDemoAssignSeek">
+    <configuration name="ConsumerDemoAssignSeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.simplejess.kafka.tutorial1.ConsumerDemoAssignSeek" />
       <module name="kafkabeginnerscourse" />
       <extension name="coverage">
         <pattern>
@@ -303,19 +300,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConsumerDemo" />
       <item itemvalue="Application.ConsumerDemoGroups" />
       <item itemvalue="Application.ProducerDemo" />
       <item itemvalue="Application.ProducerDemoKeys" />
       <item itemvalue="Application.ConsumerDemoWithThread" />
+      <item itemvalue="Application.ConsumerDemoAssignSeek" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemoAssignSeek" />
         <item itemvalue="Application.ConsumerDemoWithThread" />
         <item itemvalue="Application.ProducerDemoKeys" />
         <item itemvalue="Application.ConsumerDemoGroups" />
         <item itemvalue="Application.ProducerDemo" />
-        <item itemvalue="Application.ConsumerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -337,30 +334,45 @@
       <option name="project" value="LOCAL" />
       <updated>1554697326402</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Apache Kafka for beginners lecture">
+      <created>1554697388619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554697388619</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Apache Kafka for beginners lecture">
+      <created>1554698873814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554698873814</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-4" width="1863" height="1084" extended-state="6" />
+    <frame x="159" y="230" width="1400" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12864211" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17256637" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32960325" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3377416" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.35814455" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32858595" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32858595" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -398,6 +410,43 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Apache Kafka for beginners lecture" />
     <option name="LAST_COMMIT_MESSAGE" value="Apache Kafka for beginners lecture" />
@@ -409,10 +458,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemoWithCallback.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+        <state relative-caret-position="374">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -423,59 +472,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemoKeys.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0.jar!/org/apache/kafka/common/serialization/StringSerializer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="374">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemoWithCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="105" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
           <folding>
-            <element signature="e#1601#2430#0" expanded="true" />
-            <element signature="e#2429#2430#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="93" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="93" />
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#989#1005#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ProducerDemoKeys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="154">
+          <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+          <folding>
+            <element signature="e#1415#1431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="264" column="47" selection-start-line="264" selection-start-column="47" selection-end-line="264" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state relative-caret-position="880">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1241#1257#0" expanded="true" />
+            <element signature="e#1446#1462#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoGroups.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+        <state relative-caret-position="484">
+          <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+          <folding>
+            <element signature="e#1457#1473#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoWithThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="403">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
           <folding>
             <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simplejess/kafka/tutorial1/ConsumerDemoAssignSeek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding>
+            <element signature="e#1390#1406#0" expanded="true" />
           </folding>
         </state>
       </provider>
